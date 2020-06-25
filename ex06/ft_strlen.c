@@ -4,9 +4,11 @@
 int      ft_strlen(char *str)
 {
 	int d;
-
 	d = 0;
-	while (str[d])
+	while (*str)
+	{
 		d++;
+		str++;
+	}
 	return(d);
 }
