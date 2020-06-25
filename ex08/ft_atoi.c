@@ -13,19 +13,7 @@ int     ft_atoi(char *str)
 		s++;
 	if (str[s] == 45)
 		negativ = 1;
-	if ((str[s] == 45) || (str[s] == 43))
-		s++;
-	while (str[s] >= 48 && str[s] <= 57)
-	{
-		number *= 10;
-		number +=((int)str[s] - 48);
-		s++;
-	}
-	if (negative == 1)
-		return (-number);
-	else
-		return (number);
-}
+	i
 
 			
 						
